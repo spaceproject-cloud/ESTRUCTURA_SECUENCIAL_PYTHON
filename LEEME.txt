@@ -1,0 +1,17 @@
+# Taller estructural secuencial - Python
+
+Conversión de los ejercicios del repositorio de PSeInt a archivos `.py` independientes.
+
+## Cómo ejecutar
+1. Abre esta carpeta en VS Code.
+2. Abre el archivo del ejercicio que quieras ejecutar.
+3. Ejecuta el archivo con Python 3.
+
+También puedes usar la terminal:
+`python3 nombre_del_archivo.py`
+
+## Observaciones sobre dos fórmulas del original
+- `cdt.py`: conserva la fórmula escrita en PSeInt, aunque parece tener un error: no utiliza la variable de días y multiplica dos veces por el capital.
+- `disminuido_15.py`: conserva `num * 0.15`, tal como está en PSeInt. Para calcular el valor después de disminuirlo un 15%, la operación sería `num * 0.85`.
+- `aumentado_15.py`: el archivo original anuncia una disminución del 15%, aunque el nombre indica aumento; se conservó la operación `num * 0.85` del código original.
+- En `uso_funciones.py`, las funciones trigonométricas de Python reciben el ángulo en radianes, igual que las funciones matemáticas habituales.
